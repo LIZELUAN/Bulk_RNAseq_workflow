@@ -2,7 +2,7 @@
 a bulk RNA-seq pipeline to trim the reads with __fastp__, align the trimmmed reads with __STAR__, and quantify the expression profiles with __RSEM__.  
 This is written in shell script    
 
-# How to run
+## How to run
 __*1. Configure the environment for the pipeline*__  
 Please see `env_config_for_rnaseq.sh` and `rnaseq_env.yml`.  
 <br>
