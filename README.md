@@ -3,12 +3,12 @@ a bulk RNA-seq pipeline to trim the reads with __fastp__, align the trimmmed rea
 This is written in shell script    
 
 # How to run
-1. Configure the environment for the pipeline  
-Please see __env_config_for_rnaseq.sh__ and __rnaseq_env.yml__.  
+## 1. Configure the environment for the pipeline:  
+Please see `env_config_for_rnaseq.sh` and `rnaseq_env.yml`.  
   
-2. Create STAR genome and RSEM genome index  
-Before running the pipeline, the STAR genome and RSEM genome index can be created by __create_index.sh__.
+## 2. Create STAR genome and RSEM genome index:  
+Before running the pipeline, the STAR genome and RSEM genome index can be created by `create_index.sh`.
 
-3. Run the task.sh  
-The reproducible pipeline sh script is __rna_seq_analysis_pipeline.sh__.
-Please see the example command to run the pipeline: __task.sh__.
+## 3. Simply Run by changing the task.sh file:   
+The reproducible pipeline file is `rna_seq_analysis_pipeline.sh`.
+Please see the example command to run the pipeline: `task.sh`.
