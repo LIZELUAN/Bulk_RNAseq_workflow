@@ -1,4 +1,4 @@
-# bulk_RNA-seq_workflow
+# Bulk_RNA-seq_workflow
 A bulk RNA-seq pipeline to trim the reads with __fastp__, align the trimmmed reads with __STAR__, and quantify the expression profiles with __RSEM__.  
 This is written in shell script.    
 
