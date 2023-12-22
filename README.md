@@ -9,7 +9,7 @@ Please see `env_config_for_rnaseq.sh` and `rnaseq_env.yml`.
 <br>
 __2. Create STAR genome and RSEM genome index__  
   
-Before running the pipeline, the STAR genome and RSEM genome index can be created by `create_index.sh`.
+Before running the pipeline, the STAR genome and RSEM genome index can be created by `create_index.sh`.  
 <br>
 __3. Simply Run by changing the task.sh file__   
   
