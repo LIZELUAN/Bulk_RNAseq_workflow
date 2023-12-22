@@ -4,7 +4,7 @@ This is written in shell script
 
 # How to run
 1. Configure the environment for the pipeline  
-Please see env_config_for_rnaseq.sh and rnaseq_env.yml.  
+Please see 'env_config_for_rnaseq.sh' and 'rnaseq_env.yml'.  
   
 2. Create STAR genome and RSEM genome index  
 Before running the pipeline, the STAR genome and RSEM genome index can be created by create_index.sh.
